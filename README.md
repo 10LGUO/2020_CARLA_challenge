@@ -175,3 +175,5 @@ conda activate python37
 
 ./leaderboard/scripts/run_evaluation.sh
 ```
+## ADP Controller
+The PID lateral controller is replaced with ADP based controller, which enables the autonomous vehicle learn to track waypoints without knowing the vehicle dynamics. It makes the model more generalizable to various type of vehciles.
