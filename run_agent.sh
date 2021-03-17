@@ -1,7 +1,7 @@
 #!/bin/bash
 export CARLA_ROOT=/opt/carla-simulator
 export PORT=2000
-export ROUTES=leaderboard/data/routes_training/route_18.xml
+export ROUTES=leaderboard/data/routes_training/route_17.xml
 export TEAM_AGENT=image_agent.py
 export TEAM_CONFIG=/home/lelei/weights/epoch=24.ckpt
 export HAS_DISPLAY=1
